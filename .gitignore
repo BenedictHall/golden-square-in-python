@@ -1,5 +1,5 @@
 get-pip.py
-your-project-venv
+golden_square-venv
 experimental
 __pycache__
 .coverage

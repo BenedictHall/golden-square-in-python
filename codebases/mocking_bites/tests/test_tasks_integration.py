@@ -8,7 +8,7 @@ def test_adds_tasks_to_list():
     task_2 = Task("Walk the cat")
     task_list.add(task_1)
     task_list.add(task_2)
-    assert task_list.tasks == [task_1, task_2]
+    assert task_list.all() == [task_1, task_2]
 
 
 def test_marks_tasks_as_complete():
